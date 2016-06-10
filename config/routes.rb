@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Rails.application.routes.draw do
   get 'welcome/index'
 
@@ -57,7 +56,3 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 end
-=======
-
-root 'welcome#index'
->>>>>>> d62706aa40ee21ca476eb5abe35496060f424fc1
