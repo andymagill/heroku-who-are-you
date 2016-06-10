@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+<<<<<<< HEAD
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
@@ -44,3 +45,18 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+=======
+## bundler
+gem 'nokogiri'
+gem 'rack', '~>1.1'
+gem 'rspec', :require => 'spec'
+
+## heroku
+gem 'rails_12factor', group: :production
+
+## postgresql 
+gem 'pg'
+
+## rails 
+ruby "2.1.5"
+>>>>>>> d62706aa40ee21ca476eb5abe35496060f424fc1
