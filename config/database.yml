@@ -17,3 +17,6 @@ test:
 
 production:
   <<: *default
+  database: d86hvh7l3klm2u
+  username: fybivaazsdkwvo
+  password: I49CNkea3UvhvUYGWDd719RB5i
